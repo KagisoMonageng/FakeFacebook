@@ -154,6 +154,7 @@ nav .right i {
   background-color: var(--white);
   border-radius: .5rem;
   box-shadow: 2px 2px 7px var(--gray50);
+  gap: 1rem;
   
 }
 .main .center .add-post .post button{
@@ -165,12 +166,16 @@ nav .right i {
   text-align: center;
   border-radius: 3px;
   border: none;
+  gap: 1rem;
 
   
 }
 .main .center img {
   width: 2rem;
   cursor: pointer;
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .main .right {
