@@ -143,7 +143,64 @@ nav .right i {
 .main .center {
   display: flex;
   flex: 2;
+  flex-direction: column;
+   
 }
+.main .center .add-post .post{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  box-shadow: 2px 2px 7px var(--gray50);
+  gap: 1rem;
+  
+}
+.main .center .add-post .post button{
+  border: none;
+  background-color: var(--gray50);
+  flex: 2;
+  outline: none;
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  gap: 1rem;
+
+  
+}
+.main .center img {
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.main .center .card{
+  display: flex;
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  box-shadow: 2px 2px 7px var(--gray50);
+  gap: 1rem;
+  
+}
+.main .center .card img {
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.main .center .card .menu{
+  margin-left: 80%;
+  
+}
+
 .main .right {
   display: flex;
   flex: 1;
@@ -267,6 +324,9 @@ nav .right i {
 .section__header .right:hover {
   letter-spacing: 2px;
 }
+.right-tab{
+  padding-left: .7rem;
+}
 
 .link {
   margin-top: 1rem;
@@ -289,3 +349,43 @@ nav .right i {
   color: var(--gray150);
   letter-spacing: 2px;
 }
+
+
+
+
+.link-contacts {
+  margin-top: .5rem;
+  gap: .3rem;
+
+}
+
+.link-contacts img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 2px var(--blue50);
+  cursor: pointer;
+
+}
+
+.link-contacts a {
+  display: flex;
+  gap: .7rem;
+  text-decoration: none;
+  color: var(--gray100);
+  font-size: .9rem;
+  padding: .7rem .5rem;
+  font-weight: bold;
+  transition: var(--transition);
+  border-radius: 1rem;
+  align-items: center;
+
+}
+
+.link-contacts a:hover {
+  background-color: var(--gray50);
+  color: var(--gray150);
+
+}
+
