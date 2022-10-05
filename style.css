@@ -177,6 +177,29 @@ nav .right i {
   width: 2rem;
   height: 2rem;
 }
+.main .center .card{
+  display: flex;
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  box-shadow: 2px 2px 7px var(--gray50);
+  gap: 1rem;
+  
+}
+.main .center .card img {
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.main .center .card .menu{
+  margin-left: 80%;
+  
+}
 
 .main .right {
   display: flex;
