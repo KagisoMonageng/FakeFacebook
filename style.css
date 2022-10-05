@@ -143,30 +143,36 @@ nav .right i {
 .main .center {
   display: flex;
   flex: 2;
+  flex-direction: column;
    
 }
-.main .center .post{
+.main .center .add-post .post{
   display: flex;
-  flex: 1;
-  flex-direction: column; 
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  box-shadow: 2px 2px 7px var(--gray50);
   
-  height: 2rem;
+}
+.main .center .add-post .post button{
+  border: none;
   background-color: var(--gray50);
-  padding-bottom: 2rem;
-  border-radius: 2rem;
+  flex: 2;
+  outline: none;
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+
+  
 }
 .main .center img {
   width: 2rem;
   cursor: pointer;
 }
-.main .center .post input{
-  border: none;
-  background-color: transparent;
-  flex: 1;
-  outline: none;
-  align-items: center;
-  
-}
+
 .main .right {
   display: flex;
   flex: 1;
