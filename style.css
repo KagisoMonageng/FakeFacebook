@@ -181,6 +181,29 @@ nav .right i {
   width: 2rem;
   height: 2rem;
 }
+.main .center .card{
+  display: flex;
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  box-shadow: 2px 2px 7px var(--gray50);
+  gap: 1rem;
+  
+}
+.main .center .card img {
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.main .center .card .menu{
+  margin-left: 80%;
+  
+}
 
 .main .right {
   display: flex;
@@ -213,9 +236,6 @@ nav .right i {
 }
 .right-tab .section__header .left{
   font-size: 1.3rem;
-}
-.right-tab{
-  padding-left: .7rem;
 }
 .right-tab .small-hero{
  
@@ -308,6 +328,9 @@ nav .right i {
 .section__header .right:hover {
   letter-spacing: 2px;
 }
+.right-tab{
+  padding-left: .7rem;
+}
 
 .link {
   margin-top: 1rem;
@@ -330,6 +353,8 @@ nav .right i {
   color: var(--gray150);
   letter-spacing: 2px;
 }
+
+
 
 
 .link-contacts {
@@ -365,6 +390,6 @@ nav .right i {
 .link-contacts a:hover {
   background-color: var(--gray50);
   color: var(--gray150);
-  
+
 }
 
