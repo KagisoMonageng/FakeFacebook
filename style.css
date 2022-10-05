@@ -176,6 +176,9 @@ nav .right i {
 .right-tab .section__header .left{
   font-size: 1.3rem;
 }
+.right-tab{
+  padding-left: .7rem;
+}
 .right-tab .small-hero{
  
   background:linear-gradient(0deg, rgba(51, 51, 51, 0.3), rgba(103, 98, 101, 0.3)), url(https://images.unsplash.com/photo-1664612439123-d0d80c8edd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -289,3 +292,41 @@ nav .right i {
   color: var(--gray150);
   letter-spacing: 2px;
 }
+
+
+.link-contacts {
+  margin-top: .5rem;
+  gap: .3rem;
+
+}
+
+.link-contacts img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 2px var(--blue50);
+  cursor: pointer;
+
+}
+
+.link-contacts a {
+  display: flex;
+  gap: .7rem;
+  text-decoration: none;
+  color: var(--gray100);
+  font-size: .9rem;
+  padding: .7rem .5rem;
+  font-weight: bold;
+  transition: var(--transition);
+  border-radius: 1rem;
+  align-items: center;
+
+}
+
+.link-contacts a:hover {
+  background-color: var(--gray50);
+  color: var(--gray150);
+  
+}
+
