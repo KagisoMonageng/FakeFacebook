@@ -146,6 +146,10 @@ nav .right i {
   flex-direction: column;
    
 }
+.main .center .story-row{
+  
+  background-image: url("https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjB3b21hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+}
 .main .center .add-post .post{
   display: flex;
   width: 70%;
