@@ -301,6 +301,9 @@ nav .right i {
 .section__header .right:hover {
   letter-spacing: 2px;
 }
+.right-tab{
+  padding-left: .7rem;
+}
 
 .link {
   margin-top: 1rem;
@@ -323,3 +326,43 @@ nav .right i {
   color: var(--gray150);
   letter-spacing: 2px;
 }
+
+
+
+
+.link-contacts {
+  margin-top: .5rem;
+  gap: .3rem;
+
+}
+
+.link-contacts img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 2px var(--blue50);
+  cursor: pointer;
+
+}
+
+.link-contacts a {
+  display: flex;
+  gap: .7rem;
+  text-decoration: none;
+  color: var(--gray100);
+  font-size: .9rem;
+  padding: .7rem .5rem;
+  font-weight: bold;
+  transition: var(--transition);
+  border-radius: 1rem;
+  align-items: center;
+
+}
+
+.link-contacts a:hover {
+  background-color: var(--gray50);
+  color: var(--gray150);
+
+}
+
