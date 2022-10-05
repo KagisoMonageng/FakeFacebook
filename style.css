@@ -143,6 +143,29 @@ nav .right i {
 .main .center {
   display: flex;
   flex: 2;
+   
+}
+.main .center .post{
+  display: flex;
+  flex: 1;
+  flex-direction: column; 
+  
+  height: 2rem;
+  background-color: var(--gray50);
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+}
+.main .center img {
+  width: 2rem;
+  cursor: pointer;
+}
+.main .center .post input{
+  border: none;
+  background-color: transparent;
+  flex: 1;
+  outline: none;
+  align-items: center;
+  
 }
 .main .right {
   display: flex;
